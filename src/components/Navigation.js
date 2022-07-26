@@ -1,12 +1,12 @@
 import React from 'react';
 
-function Navigation() {
+function Navigation({ setPage }) {
   return (
     <div className='row d-flex'>
-      <h2 className='col-12 col-md-3'>About Me</h2>
-      <h2 className='col-12 col-md-3'>Portfolio</h2>
-      <h2 className='col-12 col-md-3'>Contact</h2>
-      <h2 className='col-12 col-md-3'>Resume</h2>
+      <a href='#about' className='col-12 col-md-3' onClick={() => setPage('about')}>About Me</a>
+      <a href='#portfolio' className='col-12 col-md-3' onClick={() => setPage('about')}>Portfolio</a>
+      <a href='#contact' className='col-12 col-md-3' onClick={() => setPage('about')}>Contact</a>
+      <a href='#resume' className='col-12 col-md-3' onClick={() => setPage('about')}>Resume</a>
     </div>
   );
 };
