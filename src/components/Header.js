@@ -1,12 +1,12 @@
 import React from 'react';
 import Navigation from './Navigation';
 
-function Header() {
+function Header({setPage}) {
   return (
     <header className='row d-flex align-items-center justify-content-around'>
       <h1 className='col-12 col-md-6'>Kristin Kleyla</h1>
       <nav className='col-12 col-md-6'>
-        <Navigation />
+        <Navigation setPage={setPage}/>
       </nav>
     </header>
   );

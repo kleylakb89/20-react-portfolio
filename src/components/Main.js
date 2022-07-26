@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Header from './Header';
+import Footer from './Footer';
 import About from './About';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
@@ -13,7 +15,13 @@ function Main() {
   if (page === 'contact') CurrentPage = Contact;
   if (page === 'resume') CurrentPage = Resume;
 
-
+  return (
+    <>
+      <Header setPage={setPage} />
+      <CurrentPage />
+      <Footer />
+    </>
+  );
 };
 
 export default Main;
