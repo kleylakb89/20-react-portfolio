@@ -23,7 +23,7 @@ Upon loading, user is presented with an About Me page. Clicking on the navigatio
 ## Visuals
 
 The About Me page.
-![About Me](public\images\react-portfolio.png)
+![About Me](public/images/react-portfolio.png)
 
 ## Resources
 
