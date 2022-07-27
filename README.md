@@ -27,4 +27,5 @@ The About Me page.
 
 ## Resources
 
-[Repository](https://github.com/kleylakb89/20-react-portfolio)
+- [Repository](https://github.com/kleylakb89/20-react-portfolio)
+- [Heroku Site](https://murmuring-castle-81288.herokuapp.com/)
