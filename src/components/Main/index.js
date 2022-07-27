@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import Header from './Header';
-import Footer from './Footer';
-import About from './About';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
-import Resume from './Resume';
-import '../styles/Main.css';
+import Header from '../Header';
+import Footer from '../Footer';
+import About from '../About';
+import Portfolio from '../Portfolio';
+import Contact from '../Contact';
+import Resume from '../Resume';
+import './Main.css';
 
 function Main() {
   const [page, setPage] = useState('about');
