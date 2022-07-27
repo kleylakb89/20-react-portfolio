@@ -5,6 +5,7 @@ import About from './About';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Resume from './Resume';
+import '../styles/Main.css';
 
 function Main() {
   const [page, setPage] = useState('about');

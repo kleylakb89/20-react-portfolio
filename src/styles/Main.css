@@ -1,0 +1,12 @@
+a {
+  text-decoration: none;
+  color: #2C0E37;
+}
+
+a:active {
+  color: #1A659E;
+}
+
+body {
+  background-color: #FFEAD0;
+}
